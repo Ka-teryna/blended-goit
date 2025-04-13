@@ -1,0 +1,158 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #22343d;
+}
+
+/* region reset */
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+/* endregion reset */
+
+/* region common  */
+visualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.container {
+    min-width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.main-btn {
+    display: block;
+    min-width: 105px;
+    border-radius: 4px;
+    padding: 14px 42px;
+    background-color: #02897a;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #006e61;
+}
+
+
+/* endregion common */
+
+/* region header */
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 74px;
+    flex-grow: 1;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.head-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-nav-link {
+    display: block;
+    padding: 26px 0;
+    line-height: 1.75; 
+}
+.header-nav-link.current {
+    font-weight: 600;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #02897a;
+}
+
+.head-auth-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-auth-link {
+    padding: 9px 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.auth-link-light {
+    border: 1px solid #bcd0e5;
+    background-color: #fff;
+    color: #173a56;
+}
+
+.auth-link-light:hover,
+.auth-link-light:focus {
+    color: #fff;
+}
+
+/* endregion header */
+
+/* region hero */
+.hero-section {
+
+}
+
+.hero-container {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
