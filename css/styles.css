@@ -156,6 +156,7 @@ visualy-hidden {
     display: flex;
     gap: 35px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .main-title {
@@ -169,4 +170,20 @@ visualy-hidden {
 font-size: 18px;
 line-height: 1.56;
 margin-bottom: 45px;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    background-color: #fff;
 }
